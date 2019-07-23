@@ -7,7 +7,7 @@ import json
 
 tempdir = tempfile.gettempdir()
 stages = []
-for stage_id in range(1,16):
+for stage_id in range(1,17):
     html_file = os.path.join(tempdir, f"stage-{stage_id}.html")
     # download if the file does not exist
     try:
