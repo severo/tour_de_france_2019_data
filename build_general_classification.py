@@ -4,7 +4,7 @@ import os
 import json
 
 stages = []
-for stage_id in range(1,20):
+for stage_id in range(1,21):
     html_file = os.path.join("saved_html", f"stage{stage_id}.html")
     # open the file
     with open(html_file, "r") as html:
