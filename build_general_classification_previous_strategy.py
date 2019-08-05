@@ -20,6 +20,6 @@ for stage_id in range(1,19):
     with open(html_file, "r") as html:
         stages.append(parse_stage(html))
 
-json_file = "stages.json"
+json_file = "general_classification_previous_strategy.json"
 with open(json_file, "w") as f:
     print(json.dumps(stages), file=f)
