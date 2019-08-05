@@ -31,6 +31,7 @@ General ranking data of the Tour de France 2019. Scrapped from https://letour.fr
         "penal": 0,
         "raw": "2|PETER SAGAN|11|BORA - HANSGROHE|04h 22' 47''|-|B : 6''|-"
       }
+      ...
     ]
   ]
   ```
@@ -41,6 +42,7 @@ General ranking data of the Tour de France 2019. Scrapped from https://letour.fr
   [
     { "name": "TEAM INEOS", "colour": "#910024" },
     { "name": "BORA - HANSGROHE", "colour": "#76BFCB" }
+    ...
   ]
   ```
 
