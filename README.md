@@ -1,6 +1,6 @@
 # README
 
-Scrap ranking data from the Tour de France website.
+General ranking data of the Tour de France 2019. Scrapped from https://letour.fr.
 
 ## Data
 
