@@ -56,15 +56,15 @@ General ranking data of the Tour de France 2019. Scrapped from https://letour.fr
 
 ## Rebuild the data
 
-Get general rankings ([general_classification.json](./general_classification.json))
+Generate the general rankings JSON ([general_classification.json](./general_classification.json))
 
 ```
 python3 build_general_classification.py
 ```
 
-Note that `build_general_classification.py` doesn't download the HTML pages, but requires them to be available locally (they have been saved on 29 of July in [saved_html](./saved_html/) directory).
+Note that `build_general_classification.py` doesn't download the HTML pages, but requires them to be available locally (they have been saved on 2019/07/29 in the [saved_html/](./saved_html/) directory).
 
-The [profile_images](./profile_images/) and [riders_images](./riders_images/) files have also been downloaded manually.
+The [profile_images/\*.jpeg](./profile_images/) and [riders_images/\*.jpeg](./riders_images/) files have also been downloaded manually.
 
 ### Note on previous strategy - don't use it
 
