@@ -68,7 +68,7 @@ The [profile_images/\*.jpeg](./profile_images/) and [riders_images/\*.jpeg](./ri
 
 ### Note on previous strategy - don't use it
 
-I first got the everyday stage rankings and summed them up to get the general rankings. I did it this way because it was easier to automatically get the HTML with stage rankings. But the stage 20 ranking has never been released (the stage has been modified due to weather conditions), so I changed my strategy, manually downloaded the 22 general ranking HTML webpages (see [saved_html](./saved_html/)) and scrapped from them using [general_classification.json](./general_classification.json). To get the data using the first strategy ([general_classification_previous_strategy.json](./general_classification_previous_strategy.json)), launch
+I first got the everyday stage rankings and summed them up to get the general rankings. I did it this way because it was easier to automatically get the HTML with stage rankings. But the stage 20 ranking has never been released (the stage has been modified due to weather conditions), so I changed my strategy, manually downloaded the 22 general ranking HTML webpages (see [saved_html](./saved_html/)) and scrapped from them using [build_general_classification.py](./build_general_classification.py). To get the data using the first strategy ([general_classification_previous_strategy.json](./general_classification_previous_strategy.json)), launch
 
 ```
 # Don't use it, just for historical purpose
